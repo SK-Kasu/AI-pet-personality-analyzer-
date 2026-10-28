@@ -1,0 +1,16 @@
+{
+  "name": "ai-pet-personality-analyzer",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "workspaces": [
+    "apps/web",
+    "apps/api",
+    "packages/contracts"
+  ],
+  "scripts": {
+    "dev:web": "npm run dev --workspace=@pet-analyzer/web",
+    "build:web": "npm run build --workspace=@pet-analyzer/web",
+    "lint:web": "npm run lint --workspace=@pet-analyzer/web"
+  }
+}

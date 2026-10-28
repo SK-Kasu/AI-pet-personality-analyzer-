@@ -1,0 +1,67 @@
+.app {
+  width: min(100% - 2rem, 900px);
+  margin: 0 auto;
+  padding: 3rem 0;
+}
+
+.app-header {
+  margin-bottom: 2rem;
+}
+
+.eyebrow {
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+}
+
+.subtitle {
+  line-height: 1.6;
+}
+
+.connection-panel {
+  padding: 1.5rem;
+  border: 1px solid #d1d5db;
+  border-radius: 0.5rem;
+}
+
+.connection-panel p {
+  overflow-wrap: anywhere;
+  line-height: 1.7;
+}
+
+.status {
+  font-weight: 700;
+}
+
+.status-checking {
+  color: #6b7280;
+}
+
+.status-connected {
+  color: #166534;
+}
+
+.status-disconnected,
+.error-message {
+  color: #b91c1c;
+}
+
+.health-details {
+  margin-top: 1.5rem;
+  padding-top: 1rem;
+  border-top: 1px solid #d1d5db;
+}
+
+.error-message {
+  overflow-wrap: anywhere;
+}
+
+@media (max-width: 600px) {
+  .app {
+    padding-top: 2rem;
+  }
+
+  .connection-panel {
+    padding: 1rem;
+  }
+}
